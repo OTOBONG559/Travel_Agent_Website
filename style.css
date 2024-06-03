@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+
+}
+
+.navbar{
+    background-color: rgb(30, 2, 30);
+    font-weight: 900;
+    font-style: normal;
+    
+    
+  
+
+}
+
+.navbar .nav-link{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+
+.navbar .nav-item{
+    margin-left: 40px;
+   
+  
+}
+
+.navbar .nav-link:visited{color: white;}
+.navbar .nav-link:hover{color: red;}
+.navbar .nav-link:active{color: blue;}
+
+
+
+
+.btn1{
+    
+    padding: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    outline: 2px solid yellow;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    outline: 2px solid red;
+
+
+}
+
+.btn2{
+    padding: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    padding: 10px;
+    outline: 2px solid yellow;
+    
+}
+
+.btn2:hover{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    outline: 2px solid red;
+
+}
+
+
+.home{
+    background-image: url(./images/greenland.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 200px;
+    color: yellow;
+    border-style: none;
+    background-position: center center;
+  
+    
+}
+
+.content h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 4px 4px 4px purple;
+}
+
+.content input{
+    width: 75%;
+    height: 70px;
+    border-radius: 10px;
+    outline: 1px solid yellow;
+}
+
+
+.btn3{
+    width: 18%;
+    height: 70px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    outline: 1px solid yellow;
+    
+   
+}
+
+.btn3:hover{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    outline: 2px solid red;
+
+}
+
+::placeholder{
+    color: red;
+}
+
+
+.about{
+    padding-top: 10px; 
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+p{
+   font-weight: normal;
+   text-align: justify;
+   text-indent: 5rem;
+   padding: 10px;
+}
+
+.img-ceo{
+    padding-right: 80px;
+}
+
+.content-about{
+    margin-top: 80px;
+
+}
+
+
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px purple;
+}
+
+
+.btn4{
+    width: 30%;
+    height: 60px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    outline: 1px solid yellow;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+   
+}
+
+.btn4:hover{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    outline: 2px solid red;
+
+} 
+
+
+.about{
+    margin-bottom: 100x;
+}
+
+
+
+
+
+/* Destination Section */
+
+
+.col-md-4 img{
+    width: 100%;
+    height: 250px;
+
+    
+}
+
+
+.joy{
+text-align: center;
+text-indent: 0%;
+color:rebeccapurple;
+}
+
+
+h3{
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+
+.btn5{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    outline: 1px solid yellow;
+    justify-content: center;
+    padding: 7px;
+    
+   
+}
+
+.btn5:hover{
+    background-color: black;
+    color: red;
+    transition: 2s;
+    outline: 2px solid red;
+
+}
+
+.icons .bi{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.icons .bi-facebook{color: blue;}
+.icons .bi-whatsapp{color: green;}
+.icons .bi-twitter{color: blue;}
+
+
+
+
+
+/* Gallery */
+
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}  
+
+footer p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .home{
+        background-image: url(./images/greenland.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 100px;
+        color: yellow;
+        border-style: none;
+        background-position: center center;
+        
+    }
+
+    
+    
+    .content{
+        /* margin-right: auto; */
+        
+
+    }
+
+
+    
+.content h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 4px 4px 4px purple;
+    margin-right: 200px;
+    padding-right: 200px;
+}
+
+.content input{
+    width: 75%;
+    height: 70px;
+    border-radius: 10px;
+    outline: 1px solid yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px
+  
+}
+
+
+.btn3{
+    width: 18%;
+    height: 70px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    outline: 1px solid yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    
+
+    
+   
+}
+
+
+.logo-image{
+    display: none;
+}
+
+.col-md-4{
+    margin: 20px;
+}
+
+
+footer p{
+text-align: justify;
+margin-left: 50px;
+}
+
+}
